@@ -1,31 +1,39 @@
 from django.shortcuts import render
-from .models import ProtModel 
+from .models import InformationModel 
 from django.core.mail import BadHeaderError, send_mail
 from django.http import HttpResponse, HttpResponseRedirect
+import datetime
 
 
 # Create your views here.
-def list_p(request):
-    prots = ProtModel.objects.all()
+def home(request):
+    informationModel = InformationModel.objects.get(id=1)
 
-    length = len(prots)
+    works_com = informationModel.works_com
+    years_of_ex = informationModel.years_of_ex
+    total_clients = informationModel.total_clients
+
+    now = datetime.datetime.now()
 
     context = {
-
-        "len"  : length,
-        "prots" : prots,
+        "year" : now.year,
+        "years_of_ex": years_of_ex,
+        "total_clients": total_clients,
+        "works_com"  : works_com,
     }
-    return render(request, 'index.html', context)
+    return render(request, 'home.html', context)
 
 
 def detail_p(request, prot_id):
     prot = ProtModel.objects.get(id=prot_id)
     context = {
-
         "protf": prot,
     }
-    return render(request, 'prot_detail.html', context)
+    return render(request, 'service_detail.html', context)
 
+
+def about_us(request):
+    return render(request, 'about_us.html')
 
 def send_email_fun(request):
     name = request.POST.get('name', '')

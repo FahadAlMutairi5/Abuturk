@@ -1,0 +1,981 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block body %}
+<!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url({% static 'homeBG.jpeg' %})">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">PERFECT CODE</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">We help you Operate Smarter,BPRE,Digital transformation,Digital solution and platform, Modern Business intelligence and data analysis, Contact customer service</span><strong class="text-slider"></strong></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="{% static 'Untitled-3.png' %}">
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About Us
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    About Us
+                  </p>
+                  <p class="lead">
+                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
+                    porttitor volutpat. Vestibulum
+                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                  </p>
+                  <p class="lead">
+                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                    Nulla porttitor accumsan
+                    tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--/ Section Services Star /-->
+  <section id="service" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Services
+            </h3>
+            <p class="subtitle-a">
+                We enable your business to be committed to customer satisfaction by providing the following services
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+            <div class="service-box text-center">
+                <div class="service-ico">
+                    <span class="ico-circle"><img src="{% static 'BPREv5.png' %}" style="width: 78%"></span>
+                </div>
+                <div class="service-content">
+                    <p class="text-muted text-center">Business Process Reengineering and automation</p>
+                    <p class="s-description" style="height: 13.5rem; text-align: justify;">
+                        Is your organization looking for  dramatic improvements in productivity, cycle times and quality by using emerging technology to enable improvements? We can support you improve your business processes in alignment with your strategy by leveraging on digital capabilities to embrace digitalization.
+                    </p>
+                </div>
+                <a href="#OurProject">
+                    <button class="btn btn-primary" type="button">
+                        More
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+                <div class="service-box text-center">
+                    <div class="service-ico">
+                        <span class="ico-circle"><img src="{% static 'Digitaltransformation.png' %}" style="width: 70%"></span>
+                    </div>
+                    <div class="service-content">
+                        <p class="text-muted text-center">Digital transformation</p>
+                        <p class="s-description" style="height: 13.5rem; text-align: justify;">
+                            Digital business transformation is not just about implementing new emerging technologies in the
+                            organization. Technology adoption without a significant change in you core organization It is likely to lead
+                            to sub-optimal results.
+                        </p>
+                    </div>
+                    <a href="#OurProject">
+                        <button class="btn btn-primary" type="button">
+                            More
+                        </button>
+                    </a>
+                </div>
+        </div>
+        <div class="col-md-4">
+            <a style="text-decoration:none" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <div class="service-box text-center">
+                    <div class="service-ico">
+                        <span class="ico-circle"><img src="{% static 'digital_solution_and_platform.png' %}" style="width: 80%"></span>
+                    </div>
+                    <div class="service-content">
+                        <p class="text-muted text-center">Digital solution and platform</p>
+                        <p class="s-description" style="height: 13.5rem; text-align: justify;">
+                            We will help you connect and model digital solution to improve your customer experience and services, and
+                            enable Omnichannel Customer Engagement.
+                        </p>
+                    </div>
+                    <a href="#OurProject">
+                        <button class="btn btn-primary" type="button">
+                            More
+                        </button>
+                    </a>
+                </div>
+            </a>
+        </div>
+      </div>
+        <div class="row justify-content-md-center">
+          <div class="col-md-4">
+        <div class="service-box text-center">
+            <div class="service-ico">
+                <span class="ico-circle"><img src="{% static 'Modern_Business_Intelligence_and_data_analysis.png' %}"
+                        style="width: 100%"></span>
+            </div>
+            <div class="service-content">
+                <p class="text-muted text-center">Modern Business Intelligence and data analysis</p>
+                <p class="s-description" style="height: 15rem; text-align: justify;">
+                    How the organization uses solutions that reflect today's data challenges, and the people, processes and
+                    technologies that are associating the shift to modern business analytics? We can help your business make the
+                    best use of its asset data resources through the efficient use of the right technology, with a clear
+                    strategy and modernization road map.
+                </p>
+            </div>
+            <a href="#OurProject">
+                <button class="btn btn-primary" type="button">
+                    More
+                </button>
+            </a>
+        </div>
+          </div>
+          <div class="col-md-4">
+        <div class="service-box text-center">
+            <div class="service-ico">
+                <span class="ico-circle"><img src="https://img.icons8.com/material/48/000000/paint-palette.png"></span>
+            </div>
+            <div class="service-content">
+                <p class="text-muted text-center">Contact Center Services</p>
+                <p class="s-description" style="height: 15rem; text-align: justify;">
+                    We provide an innovative contact management system which facilitates customer service and stakeholder
+                    communications for clients. Our Contact Center caters to the needs of diverse audiences in several languages
+                    and serves clients 24 hours a day, every day of the year.
+                </p>
+            </div>
+            <a href="#OurProject">
+                <button class="btn btn-primary" type="button">
+                    More
+                </button>
+            </a>
+        </div>
+        </div>
+        </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
+
+  <div id="Static" class="section-counter paralax-mf bg-image" style="background-image: url({% static 'counters-bg.jpg' %})">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-lg-4">
+          <div class="counter-box">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="fas fa-check"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">{{works_com}}</p>
+              <span class="counter-text">WORKS COMPLETED</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="far fa-calendar"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">{{years_of_ex}}</p>
+              <span class="counter-text">YEARS OF EXPERIENCE</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="fas fa-users"></i></span>
+            </div>
+            <div class="counter-num">
+              
+              <p class="counter">{{total_clients}}</p>
+              
+              <span class="counter-text">TOTAL CLIENTS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Section Portfolio Star /-->
+  <section id="OurProject" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+        <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-3 col-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active text-left" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                    Business Process Reengineering and automation
+                </button>
+                <button class="nav-link text-left" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                    Digital transformation
+                </buttona>
+                <button class="nav-link text-left" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                    Digital solution and platform
+                </button>
+                <button class="nav-link text-left" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    Modern Business Intelligence and data analysis
+                </button>
+                <button class="nav-link text-left" id="v-pills-settings-tab-v2" data-bs-toggle="pill" data-bs-target="#v-pills-settings-v2" type="button" role="tab" aria-controls="v-pills-settings-v2" aria-selected="false">
+                    Contact Center Services
+                </button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="row">
+                        <div class="col-6">
+                            <strong>
+                                Value
+                            </strong>
+                            <hr/>
+                            <p style="text-align: justify;">
+                                Business process reengineering will allow your organization to increase the achievement of your business objectives in alignment with your strategic plan and modernization road map , addresses the challenges and optimizing the customer experience and service quality.
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <strong>
+                                How can we help?
+                            </strong>
+                            <hr/>
+                            <p style="text-align: justify;">
+                                Our broad range of experts can help you to review and update your key business processes that give you a competitive edge. We help you elevate every business function of your organization to new levels of modernization. We’ll show you how to transform the The right processes that has the potential to optimize your entire value chain, reduce waste, lower costs and improve customer experience by the leverage of emerging technology.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <strong>
+                                Our Framework
+                            </strong>
+                            <hr/>
+                            <p style="text-align: justify;">
+                                The business process reengineering is not just about the process and technology, it’s also about looking to organization structure and culture.
+                                <br/>Our broad focus areas include:                                    
+                            </p>
+                            <ul style="list-style-type:disc">
+                                <li>
+                                    <strong>
+                                        Organization: 
+                                    </strong>
+                                    Look at the culture and the encourageable change: Job skills , structure, rewards, values.
+                                </li>
+                                <li>
+                                    <strong>
+                                        Technology: 
+                                    </strong>
+                                    Look at the enabling technology: IT architecture, methods and tools, standards
+                                </li>
+                                <li>
+                                    <strong>
+                                        Process: 
+                                    </strong>
+                                    Look at core business process that has the heights impact: Value added, customer focus, innovation( bring innovation in the redesign processes)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <strong>
+                                Our approach
+                            </strong>
+                            <hr/>
+                            <p style="text-align: justify;">
+                                Our methodology of Business Process Reengineering contains seven major steps:
+                            </p>
+                            <ul style="list-style-type:disc">
+                                <li>
+                                    <strong>
+                                        Visioning: 
+                                    </strong>
+                                    define the corporate vision and business objectives
+                                </li>
+                                <li>
+                                    <strong>
+                                        Identifying: 
+                                    </strong>
+                                    Identify business process to be reengineering.
+                                </li>
+                                <li>
+                                    <strong>
+                                        Analyzing: 
+                                    </strong>
+                                    Analyze and measure the existing processes.
+                                </li>
+                                <li>
+                                    <strong>
+                                        Redesigning: 
+                                    </strong>
+                                    Identify enabling IT and generate alternatives process redesigning.
+                                </li>
+                                <li>
+                                    <strong>
+                                        Evaluating: 
+                                    </strong>
+                                    Evaluate and selects. Process redesign
+                                </li>
+                                <li>
+                                    <strong>
+                                        Implementing: 
+                                    </strong>
+                                    Implement the redesignment process
+                                </li>
+                                <li>
+                                    <strong>
+                                        Improving: 
+                                    </strong>
+                                    Continues improvement.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="row">
+                        <div class="col-6">
+                            <strong>
+                                Value
+                            </strong>
+                            <hr />
+                            <p style="text-align: justify;">
+                                Develop an organization-wide digital transformation roadmap to implement exponential technologies and to
+                                build the digital future. The digital transformation will brings greater efficiency and effectiveness
+                                tangible and intangible value, improve the operating model outcomes along the entire value chain, and
+                                successfully serve your clients in the digitalized world by providing an unique experience.
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <strong>
+                                How can we help?
+                            </strong>
+                            <hr />
+                            <p style="text-align: justify;">
+                                Company’s Digital Transformation services bring our capabilities in consulting management and
+                                organization improvement to help companies developing core and cutting-edge service capabilities that
+                                give them a competitive edge.
+                                <br />Our services involve helping our clients to:
+                            </p>
+                            <ul style="list-style-type:disc">
+                                <li>
+                                    An in-depth view of end to end processes in your organization
+                                </li>
+                                <li>
+                                    Assessment digital capabilities and addressee the challenges.
+                                </li>
+                                <li>
+                                    Build a bridge between strategy and effective execution.
+                                </li>
+                                <li>
+                                    Map out tech. solution that scale with your long term strategy
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="row">
+                        <strong style="text-decoration: underline;">
+                            Digital Transformation journey
+                        </strong>
+                        <p style="text-align: justify;">
+                            Digital strategic management is an iterative process that requires engagement from most key stakeholders in the organization to move it toward the digital future.
+                        </p>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#homeTabContent" role="tab" aria-controls="homeTabContent"
+                                    aria-selected="true">Strategize</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                                    aria-selected="false">Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                                    aria-selected="false">Implement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="operate-tab" data-toggle="tab" href="#operate" role="tab" aria-controls="operate"
+                                    aria-selected="false">Operate</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="homeTabContent" role="tabpanel" aria-labelledby="home-tab">
+                                <br/>
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        Strategy vision
+                                    </li>
+                                    <li>
+                                        Analyse the organization’s situation
+                                    </li>
+                                    <li>
+                                        Digital maturity assessment
+                                    </li>
+                                    <li>
+                                        Identifies and prioritize transformational digital capabilities
+                                    </li>
+                                    <li>
+                                        Create the digital transformation Road map
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <br />
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        Design digital business architecture including: the organization, and process change
+                                    </li>
+                                    <li>
+                                        Design the technology architecture: including the data, application and infrastructure
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <br />
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        Developpement and piloting of  transformational capabilities.
+                                    </li>
+                                    <li>
+                                        Implementation of people dimension: Training, hiring rewarding, leadership and management, culture etc.
+                                    </li>
+                                    <li>
+                                        Implementation of core process dimension
+                                    </li>
+                                    <li>
+                                        Implementation of technology dimension: application, software, and hardware.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="operate" role="tabpanel" aria-labelledby="operate-tab">
+                                <br />
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        Deploy enterprise- wide capabilities
+                                    </li>
+                                    <li>
+                                        Measure organizational impact and performance.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <div class="row">
+                        <p style="text-align: justify;">
+                            Our leading solutions delivered on superior agile customer centric, every time. We provides implementation and customization for various applications as well as integration for the different components in each product and we propose Integration solution for different systems integration in any organization. Also our Outsourcing Services for organizations provides your organization with the most qualified and the advanced resources in different areas.  
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <strong>
+                                WHAT WE DO
+                            </strong>
+                            <br />
+                            <ul style="list-style-type:disc">
+                                <li>
+                                    Application blue print architecture
+                                </li>
+                                <li>
+                                    Web design
+                                </li>
+                                <li>
+                                    Mobile app
+                                </li>
+                                <li>
+                                    Implementation and customization for various applications (CRM, ERP, etc.).
+                                </li>
+                                <li>
+                                    Outsourcing
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <strong>
+                                HOW WE DO
+                            </strong>
+                            <p style="text-align: justify;">
+                                We incorporate organization thinking and agile methods to help established new digital platforms increase their customer value, driven operational effectiveness.
+                            </p>
+                            <ul style="list-style-type:disc">
+                                <li>
+                                    Inspiration
+                                </li>
+                                <li>
+                                    Creation
+                                </li>
+                                <li>
+                                    Innovation
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="row">
+                        <strong style="text-decoration: underline;">
+                            Methodology
+                        </strong>
+                        <p style="text-align: justify;">
+                            We provide full-cycle application development services. This includes expert user research, discovery, design architecture, prototyping and implementation of your application from idea to launch, integrating the new product into your infrastructure and providing further improvement and optimization on demand. There are 4 phases in the digital lifecycle: Discovery, Alpha, Beta, and Live.
+                        </p>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item text-center">
+                                <a class="nav-link active" id="home-tabM" data-toggle="tab" href="#homeTabContentM" role="tab" aria-controls="homeTabContentM"
+                                    aria-selected="true">
+                                    Discovery
+                                    <br/>
+                                    <span style="font-size: 10px">
+                                        (Discovery phase)
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" id="profile-tabM" data-toggle="tab" href="#profileM" role="tab" aria-controls="profileM"
+                                    aria-selected="false">
+                                    Design
+                                    <br/>
+                                    <span style="font-size: 10px">
+                                        (Alpha phase)
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" id="contact-tabM" data-toggle="tab" href="#contactM" role="tab" aria-controls="contactM"
+                                    aria-selected="false">
+                                    Implement
+                                    <br/>
+                                    <span style="font-size: 10px">
+                                        (Beta phase)
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" id="operate-tabM" data-toggle="tab" href="#operateM" role="tab" aria-controls="operateM"
+                                    aria-selected="false">
+                                    Operate
+                                    <br/>
+                                    <span style="font-size: 10px">
+                                        (Live phase)
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="homeTabContentM" role="tabpanel" aria-labelledby="home-tabM">
+                                <br/>
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        Describing the user opportunity or problem
+                                    </li>
+                                    <li>
+                                        Investigating and identifying user needs
+                                    </li>
+                                    <li>
+                                        Identifying how can meet user needs
+                                    </li>
+                                    <li>
+                                        Establishing project scope and cost
+                                    </li>
+                                    <li>
+                                        Working out how to measure success
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="profileM" role="tabpanel" aria-labelledby="profile-tabM">
+                                <br />
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        Draft and test prototypes of a range of different solutions that may meet user needs
+                                    </li>
+                                    <li>
+                                        Iterate prototypes based on user feedback to develop a basic working model.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="contactM" role="tabpanel" aria-labelledby="contact-tabM">
+                                <br />
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        Work with users to move from prototype to a working product
+                                    </li>
+                                    <li>
+                                        Iterate as we get user feedback
+                                    </li>
+                                    <li>
+                                        Ensure the product meets standards and policies, for example around privacy, security and accessibility.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="operateM" role="tabpanel" aria-labelledby="operate-tabM">
+                                <br />
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        Think about continuous improvement
+                                    </li>
+                                    <li>
+                                        Review how it's performing against objectives
+                                    </li>
+                                    <li>
+                                        Identify ways to make it better serve its audience.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <div class="row">
+                        <div class="col-6">
+                            <strong>
+                                Value
+                            </strong>
+                            <hr />
+                            <p style="text-align: justify;">
+                                Modern business intelligence and data analysis gives your organization advantages on converting your data
+                                assets into a useful form, sharing it across the organization and deriving insights from. Also, it enables
+                                deferent business unit-wide a data access and usage needs to ensures various departments work in alignment
+                                with each other. With data management strategy, every department and individual will have a standard
+                                guidelines to follow which enhances the organization standardization and how will recognize opportunities
+                                for improvement. Advance data analysis and data strategy will enable your organization to introduce emerging
+                                technologies such AI and IOT.
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <strong>
+                                How can we help?
+                            </strong>
+                            <hr />
+                            <p style="text-align: justify;">
+                                Our services can support companies in the following areas:
+                            </p>
+                            <ul style="list-style-type:disc">
+                                <li>
+                                    Define how data will help your organization meet business goals, define data activities against these objectives, determinate data governance plan, selects the right tools, and build the entire data strategy road map.
+                                </li>
+                                <li>
+                                    Data maturity assessment: Assets the data management in five dimensions: Collect, Store, Manage, Share and Use data.
+                                </li>
+                                <li>
+                                    BI Implementations: Design, develop and implement a data architecture that supports data warehousing, reporting and analytics
+                                </li>
+                                <li>
+                                    Advanced analytics: exploit data further through data science in different industries, extract strategic business insights(sales, pricing, etc.), build models to predict future trends, and data visualization.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings-v2" role="tabpanel" aria-labelledby="v-pills-settings-tab-v2">
+                    <div class="row">
+                        <div class="col-6">
+                            <strong>
+                                Value
+                            </strong>
+                            <hr/>
+                            <p style="text-align: justify;">
+                                Our company manages stakeholder communications and enquiry resolution for public and private sector clients across multiple channels including Phone, Email, Web Chat, SMS, Social Media, and Chat Box, which serve complex multichannel requirements. Our broad range of experts IT teams create the best solution with the latest Contact Center technology to serve all client needs.
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <strong>
+                                How can we help?
+                            </strong>
+                            <hr/>
+                            <p style="text-align: justify;">
+                                Our customer service center offering you the following benefits:
+                            </p>
+                            <ul style="list-style-type:disc">
+                                <li>
+                                    Enhance customer care experience for your target audience.
+                                </li>
+                                <li>
+                                    Provide a systemic approach
+                                </li>
+                                <li>
+                                    Reduce workload by achieving more efficiency of first call resolution
+                                </li>
+                                <li>
+                                    Increase service reachability to be 24/7
+                                </li>
+                                <li>
+                                    Proactive prevention.  
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="row">
+                        <strong style="text-decoration: underline;">
+                            Contact Center Services
+                        </strong>
+                        <p style="text-align: justify;">
+                            We enable your business to be committed to customer satisfaction by providing the following services: 
+                        </p>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item text-center">
+                                <a class="nav-link active" id="home-tabCS" data-toggle="tab" href="#homeTabContentCS" role="tab" aria-controls="homeTabContentCS"
+                                    aria-selected="true">
+                                    Inbound services 
+                                </a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" id="profile-tabCS" data-toggle="tab" href="#profileCS" role="tab" aria-controls="profileCS"
+                                    aria-selected="false">
+                                    Outbound Services
+                                </a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" id="contact-tabCS" data-toggle="tab" href="#contactCS" role="tab" aria-controls="contactCS"
+                                    aria-selected="false">
+                                    Infrastructure
+                                </a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" id="operate-tabCS" data-toggle="tab" href="#operateCS" role="tab" aria-controls="operateCS"
+                                    aria-selected="false">
+                                    Training and Development
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="homeTabContentCS" role="tabpanel" aria-labelledby="home-tabCS">
+                                <br/>
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        General inquiries
+                                    </li>
+                                    <li>
+                                        Query resolution
+                                    </li>
+                                    <li>
+                                        Emergency lines
+                                    </li>
+                                    <li>
+                                        Data validation
+                                    </li>
+                                    <li>
+                                        Scheduling / appointment
+                                    </li>
+                                    <li>
+                                        setting
+                                    </li>
+                                    <li>
+                                        Booking and reservations
+                                    </li>
+                                    <li>
+                                        Billing information
+                                    </li>
+                                    <li>
+                                        Video contact center
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="profileCS" role="tabpanel" aria-labelledby="profile-tabCS">
+                                <br />
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        Customer support
+                                    </li>
+                                    <li>
+                                        Outbound sales
+                                    </li>
+                                    <li>
+                                        Direct marketing
+                                    </li>
+                                    <li>
+                                        Surveys
+                                    </li>
+                                    <li>
+                                        Campaigns management
+                                    </li>
+                                    <li>
+                                        Lead generation
+                                    </li>
+                                    <li>
+                                        Loyalty programs Renewals and subscription ordering Market research
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="contactCS" role="tabpanel" aria-labelledby="contact-tabCS">
+                                <br />
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        Contact Center design and implementation
+                                    </li>
+                                    <li>
+                                        Infrastructure deployment
+                                    </li>
+                                    <li>
+                                        Infrastructure rental and implementation
+                                    </li>
+                                    <li>
+                                        Staff augmentation
+                                    </li>
+                                    <li>
+                                        Contact Center process
+                                    </li>
+                                    <li>
+                                        Assessment and reengineering
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="operateCS" role="tabpanel" aria-labelledby="operate-tabCS">
+                                <br />
+                                <ul style="list-style-type:disc">
+                                    <li>
+                                        Soft skills 
+                                    </li>
+                                    <li>
+                                        Call center basic skills 
+                                    </li>
+                                    <li>
+                                        Verbal communication 
+                                    </li>
+                                    <li>
+                                        Culture familiarity
+                                    </li>
+                                    <li>
+                                        Leadership
+                                    </li>
+                                    <li>
+                                        Telesales
+                                    </li>
+                                    <li>
+                                        Telemarketing
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section id="contactMFO" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url({% static 'overlay-bg.jpg' %})">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Send Message Us
+                    </h5>
+                  </div>
+                  <div>
+                      <form action="{% url 'email-me' %}" method="POST" role="form" class="contactForm">
+                        {% csrf_token %}
+                      <div id="sendmessage">Your message has been sent. Thank you!</div>
+                      <div id="errormessage">no your massge</div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      <!--/location google/-->
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="fas fa-map-marked-alt"></span>Location Soon ..</li>
+                      <li><span class="fas fa-phone-square"></span> (966) 504203065</li>
+                      <li><span class="fas fa-envelope"></span> perfectcode@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href=""><span class="ico-circle"><i class="fab fa-facebook-f"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="fab fa-instagram"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="fab fa-twitter"></i></span></a></li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; <strong>PERFECT CODE</strong> {{year}}. <br/> All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  {% endblock body %}

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import ProtModel
+from .models import InformationModel
 
-admin.site.register(ProtModel)
+admin.site.register(InformationModel)
 

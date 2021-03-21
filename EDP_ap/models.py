@@ -1,13 +1,10 @@
 from django.db import models
 from django.urls import reverse
 
-class ProtModel(models.Model):
-	name = models.CharField(max_length=120)
-	descri = models.CharField(max_length=220)
-	imag = models.ImageField(null=False , blank =False)
+class InformationModel(models.Model):
+	works_com = models.IntegerField(blank=True, null=True)
+	years_of_ex = models.IntegerField(blank=True, null=True)
+	total_clients = models.IntegerField(blank=True, null=True)
 
 	def __str__ (self):
-		return self.name
-
-	def get_absolute_url(self):
-		return reverse('prot-detail', kwargs={'prot_id':self.id})
+		return "name %s"%(self.works_com)
